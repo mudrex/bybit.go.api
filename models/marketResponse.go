@@ -303,6 +303,7 @@ type RiskLimitData struct {
 	InitialMargin     string `json:"initialMargin"`
 	IsLowestRisk      int    `json:"isLowestRisk"`
 	MaxLeverage       string `json:"maxLeverage"`
+	MMDeduction       string `json:"mmDeduction"`
 }
 
 type MarketRiskLimitInfo struct {
