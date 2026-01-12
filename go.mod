@@ -1,9 +1,11 @@
 module github.com/mudrex/bybit.go.api
 
 go 1.21
+toolchain go1.24.1
 
 require (
 	github.com/bitly/go-simplejson v0.5.1
+	github.com/bybit-exchange/bybit.go.api v0.0.0-20250303085828-836a2657b0dc
 	github.com/google/uuid v1.5.0
 	github.com/gorilla/websocket v1.5.1
 	github.com/json-iterator/go v1.1.12
@@ -16,6 +18,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
